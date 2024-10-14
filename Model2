@@ -1,0 +1,84 @@
+<!-- 2. Layout com Seções Coloridas -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Colorido - Pedro Silva Carvalho</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            background-color: #e3f2fd;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1, h2 {
+            margin: 0 0 10px;
+        }
+        p, ul {
+            margin: 0 0 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="section">
+            <h1>Pedro Silva Carvalho</h1>
+            <p>Brasília-DF | Celular: (061) 98170-4572</p>
+            <p>Email: <a href="mailto:c.s.pedro1008@gmail.com">c.s.pedro1008@gmail.com</a></p>
+        </div>
+
+        <div class="section">
+            <h2>Objetivo</h2>
+            <p>Busco uma oportunidade de estágio ou trabalho para aplicar e desenvolver minhas habilidades em programação e inovação tecnológica.</p>
+        </div>
+
+        <div class="section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>VSCode</li>
+                <li>Trabalho em Equipe</li>
+                <li>HTML, CSS, JavaScript</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Educação</h2>
+            <p>Faculdade Senac-DF, 2024</p>
+        </div>
+
+        <div class="section">
+            <h2>Projetos</h2>
+            <p>Criação de um site pessoal em HTML e CSS como parte do curso de Padrões Web.</p>
+        </div>
+
+        <div class="section">
+            <h2>Cursos</h2>
+            <p>Certificações concluídas na plataforma Alura: Aplicações Web com JavaScript, HTML5, e CSS.</p>
+        </div>
+
+        <div class="section">
+            <h2>Interesses</h2>
+            <p>Desenvolvimento Web, UX/UI, participação em eventos de tecnologia.</p>
+        </div>
+    </div>
+
+</body>
+</html>
