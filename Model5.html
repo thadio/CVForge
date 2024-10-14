@@ -1,0 +1,95 @@
+<!-- 5. Layout com Linha do Tempo -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo com Linha do Tempo - Pedro Silva Carvalho</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+            margin: 20px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 2px;
+            height: 100%;
+            background-color: #3498db;
+        }
+        .timeline-block {
+            position: relative;
+            margin-bottom: 20px;
+            padding-left: 50%;
+            width: 100%;
+        }
+        .timeline-block::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            margin-left: -6px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #3498db;
+        }
+        .timeline-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .timeline-content h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .timeline-content p {
+            margin: 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pedro Silva Carvalho</h1>
+        <p>Brasília-DF | (061) 98170-4572 | <a href="mailto:c.s.pedro1008@gmail.com">c.s.pedro1008@gmail.com</a></p>
+
+        <div class="timeline">
+            <div class="timeline-block">
+                <div class="timeline-content">
+                    <h2>2024 - Faculdade Senac-DF</h2>
+                    <p>Análise e Desenvolvimento de Sistemas</p>
+                </div>
+            </div>
+            <div class="timeline-block">
+                <div class="timeline-content">
+                    <h2>2023 - Projeto Acadêmico</h2>
+                    <p>Criação de site em HTML e CSS durante o curso de Padrões Web</p>
+                </div>
+            </div>
+            <div class="timeline-block">
+                <div class="timeline-content">
+                    <h2>2022 - Certificações Alura</h2>
+                    <p>Conclusão de cursos em JavaScript, HTML5 e CSS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
