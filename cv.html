@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Currículo Moderno</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+    }
+
+    .resume-container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+      padding: 40px;
+      color: #333;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid #4a90e2;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+
+    .profile-pic {
+      flex-shrink: 0;
+      width: 120px;
+      height: 120px;
+      border-radius: 100px;
+      object-fit: cover;
+      border: 4px solid #4a90e2;
+    }
+
+    .header-info {
+      margin-left: 20px;
+    }
+
+    .header-info h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #222;
+    }
+
+    .header-info h2 {
+      margin: 5px 0;
+      font-weight: normal;
+      font-size: 18px;
+      color: #666;
+    }
+
+    .contact {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h3 {
+      border-left: 5px solid #4a90e2;
+      padding-left: 10px;
+      color: #4a90e2;
+      text-transform: uppercase;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .section p, .section li {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .experience-item, .education-item {
+      margin-bottom: 15px;
+    }
+
+    .experience-item h4, .education-item h4 {
+      margin: 0;
+      color: #333;
+    }
+
+    .experience-item span, .education-item span {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .skills ul, .languages ul, .certifications ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skills li, .languages li, .certifications li {
+      background: #4a90e2;
+      color: white;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+      .resume-container {
+        box-shadow: none;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume-container">
+    <div class="header">
+      <img src="foto.jpg" alt="Foto de Perfil" class="profile-pic">
+      <div class="header-info">
+        <h1>Thádio Robledo</h1>
+        <h2>Especialista em Estratégia, Inovação e Projetos Digitais</h2>
+        <div class="contact">
+          Brasília, DF · thadio@email.com · (61) 99999-9999 · linkedin.com/in/thadio
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Sobre</h3>
+      <p>Profissional com ampla experiência em transformação digital, estratégia, tecnologia e inovação. Atuante em projetos de alto impacto no setor bancário e público, com foco em resultado, liderança e visão de futuro.</p>
+    </div>
+
+    <div class="section">
+      <h3>Experiência</h3>
+      <div class="experience-item">
+        <h4>Gerente de Estratégia Digital · CAIXA Econômica Federal</h4>
+        <span>Jan 2020 – Atual | Brasília, DF</span>
+        <p>Responsável pela estratégia digital de produtos PJ, coordenação de projetos estratégicos, e transformação digital do Gerenciador Financeiro. Participação ativa em iniciativas de Open Finance e TEIA.</p>
+      </div>
+      <div class="experience-item">
+        <h4>Consultor de Inovação · Projeto Startups Gov</h4>
+        <span>2018 – 2020</span>
+        <p>Idealizador do programa de seleção de startups na CAIXA. Implementação de soluções inovadoras via Lei das Startups e transformação ágil com foco em CX e automação.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Formação</h3>
+      <div class="education-item">
+        <h4>Mestrado em Finanças e Investimentos · Universidade XPTO</h4>
+        <span>2016 – 2018</span>
+      </div>
+      <div class="education-item">
+        <h4>Análise e Desenvolvimento de Sistemas · Faculdade de Tecnologia</h4>
+        <span>2022 – Atual</span>
+      </div>
+    </div>
+
+    <div class="section skills">
+      <h3>Habilidades</h3>
+      <ul>
+        <li>Gestão de Projetos</li>
+        <li>Transformação Digital</li>
+        <li>Valuation</li>
+        <li>Finanças Corporativas</li>
+        <li>Experiência do Cliente</li>
+        <li>Scrum</li>
+        <li>Lean Inception</li>
+      </ul>
+    </div>
+
+    <div class="section languages">
+      <h3>Idiomas</h3>
+      <ul>
+        <li>Português (Nativo)</li>
+        <li>Inglês (Avançado)</li>
+        <li>Francês (Intermediário)</li>
+      </ul>
+    </div>
+
+    <div class="section certifications">
+      <h3>Certificações</h3>
+      <ul>
+        <li>PMI PMP®</li>
+        <li>Scrum Product Owner</li>
+        <li>OKR Master</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
